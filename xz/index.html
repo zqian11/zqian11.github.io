@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>新浪星座</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" href="css/constellation.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/route.js"></script>
+    <script type="text/javascript" src="js/content.js"></script>
+</head>
+
+<body>
+<section id="content">
+    <section class="container clearfix">
+        <ul>
+            <li class="fl list">
+                <a href="#/aries">
+                  <img src="images/baiyang-01.png" >
+               </a>
+            </li>
+            <li class="fl list">
+                <a href="#/taurus">
+                  <img src="images/jinniu-01.png" >
+               </a>
+            </li>
+            <li class="fl list">
+                <a href="#/gemini">
+                  <img src="images/shuangzi-01.png" >
+               </a>
+            </li>
+            <li class="fl list">
+                <a href="#/cancer">
+                  <img src="images/juxie-01.png" >
+               </a>
+            </li>
+            <li class="fl list">
+                <a href="#/leo">
+                  <img src="images/shizi-01.png" >
+               </a>
+            </li>
+            <li class="fl list">
+                <a href="#/virgo">
+                  <img src="images/chunv-01.png" >
+               </a>
+            </li>
+            <li class="fl list">
+                <a href="#/libra">
+                  <img src="images/tiancheng-01.png" >
+               </a>
+            </li>
+            <li class="fl list">
+                <a href="#/scorpio">
+                  <img src="images/tianxie-01.png" >
+               </a>
+            </li>
+            <li class="fl list">
+                <a href="#/sagittarius">
+                  <img src="images/sheshou-01.png" >
+               </a>
+            </li>
+            <li class="fl list">
+                <a href="#/capricorn">
+                  <img src="images/mojie-01.png" >
+               </a>
+            </li>
+            <li class="fl list">
+                <a href="#/aquarius">
+                  <img src="images/shuiping-01.png" >
+               </a>
+            </li>
+            <li class="fl list">
+                <a href="#/pisces">
+                  <img src="images/shuangyu-01.png" >
+               </a>
+            </li>
+        </ul>
+
+    </section>
+</section>
+    
+</body>
+<script type="text/javascript">
+    spaRouters.map('/index', function(transition) {
+      spaRouters.asyncFun('js/index.js', transition)
+    })
+    spaRouters.map('/aries', function(transition) {
+       spaRouters.asyncFun('js/aries.js', transition)
+    })
+    spaRouters.map('/taurus', function(transition) {
+       spaRouters.asyncFun('js/taurus.js', transition)
+    })
+    spaRouters.map('/gemini', function(transition) {
+       spaRouters.asyncFun('js/gemini.js', transition)
+    })
+    spaRouters.map('/cancer', function(transition) {
+      spaRouters.asyncFun('js/cancer.js', transition)
+    })
+    spaRouters.map('/leo', function(transition) {
+       spaRouters.asyncFun('js/leo.js', transition)
+    })
+    spaRouters.map('/virgo', function(transition) {
+       spaRouters.asyncFun('js/virgo.js', transition)
+    })
+    spaRouters.map('/libra', function(transition) {
+       spaRouters.asyncFun('js/libra.js', transition)
+    })
+    spaRouters.map('/scorpio', function(transition) {
+      spaRouters.asyncFun('js/scorpio.js', transition)
+    })
+    spaRouters.map('/sagittarius', function(transition) {
+       spaRouters.asyncFun('js/sagittarius.js', transition)
+    })
+    spaRouters.map('/capricorn', function(transition) {
+       spaRouters.asyncFun('js/capricorn.js', transition)
+    })
+    spaRouters.map('/aquarius', function(transition) {
+       spaRouters.asyncFun('js/aquarius.js', transition)
+    })
+    spaRouters.map('/pisces', function(transition) {
+       spaRouters.asyncFun('js/pisces.js', transition)
+    })
+    spaRouters.beforeEach(function(transition) {
+       console.log('切换之前dosomething')
+       setTimeout(function() {
+           //模拟切换之前延迟，比如说做个异步登录信息验证
+           transition.next()
+       }, 100)
+    })
+    spaRouters.afterEach(function(transition) {
+       console.log("切换之后dosomething")
+    })
+    spaRouters.init()
+</script>
+
+
+</html>

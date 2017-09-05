@@ -1,0 +1,439 @@
+@charset="utf-8";
+html,
+body,
+#content,
+.bg {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.bg {
+    box-sizing: border-box;
+    padding-top: 10%;
+}
+
+.fate-box {
+    width: 68%;
+    height: 60%;
+    margin: 0 auto;
+    padding: 6% 6%;
+    animation: dis 1s;
+}
+.content-box {
+    height: 100%;
+    overflow: auto;
+}
+.constellation-box {
+    text-align: center;
+}
+
+.constellation-box span {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.constellation-logo {
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+}
+
+.constellation {
+    font-size: 20px;
+    text-align: left;
+}
+
+.date {
+    font-size: 14px;
+    text-align: left;
+}
+
+.fate-text {
+    padding: 5px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.fate-text:last-child {
+    padding-bottom: 0px;
+    border-bottom: none;
+}
+
+.fate-name {
+    font-size: 18px;
+}
+
+.fate-content {
+    font-size: 12px;
+}
+
+.but-box {
+    width: 80%;
+    height: 20%;
+    margin: 20px auto 0;
+    animation: dis 1s;
+}
+
+.but {
+    display: block;
+    width: 45%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+/* 白羊座样式 */
+
+.Aries-bg {
+    background: #051f36 url("../images/baiyang-bg.jpg") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.Aries-fate-bg {
+    background-color: #103d61;
+}
+
+.Aries-logo {
+    background: url('../images/xingzuo-logo.png') no-repeat;
+    background-size: 160px;
+}
+
+.Aries-but-01-bg,
+.Aries-but-02-bg {
+    background: url('../images/baiyang-but.png') repeat-x;
+}
+
+.Aries-but-02-bg {
+    background-position: 0px -60px;
+}
+
+
+
+/* 金牛座样式 */
+
+.Taurus-bg {
+    background: #3e1b40 url("../images/jinniu-bg.jpg") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.Taurus-fate-bg {
+    background-color: #1a0d42;
+}
+
+.Taurus-logo {
+    background: url('../images/xingzuo-logo.png') no-repeat;
+    background-position: -40px 0px;
+    background-size: 160px;
+}
+
+.Taurus-but-01-bg,
+.Taurus-but-02-bg {
+    background: url('../images/baiyang-but.png') repeat-x;
+}
+
+.Taurus-but-01-bg {
+    background-position: 0px -120px;
+}
+
+.Taurus-but-02-bg {
+    background-position: 0px -180px;
+}
+
+
+
+/* 双子座样式 */
+
+.Gemini-bg {
+    background: #0a0a0a url("../images/shuangzi-bg.jpg") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.Gemini-fate-bg {
+    background-color: #1a0d42;
+}
+
+.Gemini-logo {
+    background: url('../images/xingzuo-logo.png') no-repeat;
+    background-position: -80px 0px;
+    background-size: 160px;
+}
+
+.Gemini-but-01-bg,
+.Gemini-but-02-bg {
+    background: url('../images/baiyang-but.png') repeat-x;
+    background-position: 0px -240px;
+}
+
+
+
+/* 巨蟹座样式 */
+
+.Cancer-bg {
+    background: #000006 url("../images/juxie-bg.jpg") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.Cancer-fate-bg {
+    background-color: rgba(0, 0, 0,0.9);
+}
+
+.Cancer-logo {
+    background: url('../images/xingzuo-logo.png') no-repeat;
+    background-position: -120px 0px;
+    background-size: 160px;
+}
+
+.Cancer-but-01-bg,
+.Cancer-but-02-bg {
+    background: url('../images/baiyang-but.png') repeat-x;
+}
+
+.Cancer-but-01-bg {
+    background-position: 0px -300px;
+}
+
+.Cancer-but-02-bg {
+    background-position: 0px -360px;
+}
+
+
+/* 狮子座样式 */
+
+.Leo-bg {
+    background: #240e5b url("../images/shizi-bg.jpg") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.Leo-fate-bg {
+    background: #4a2d75;
+}
+
+.Leo-logo {
+    background: url('../images/xingzuo-logo.png') no-repeat;
+    background-position: 0px -40px;
+    background-size: 160px;
+}
+
+.Leo-but-01-bg,
+.Leo-but-02-bg {
+    background: url('../images/baiyang-but.png') repeat-x;
+}
+
+.Leo-but-01-bg {
+    background-position: 0px -420px;
+}
+
+.Leo-but-02-bg {
+    background-position: 0px -480px;
+}
+
+
+/* 处女座样式 */
+
+.Virgo-bg {
+    background: url("../images/chunv-bg.jpg") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.Virgo-fate-bg {
+    background: #0e2c54 url('../images/shizi-t-bg.png') repeat-y;
+}
+
+.Virgo-logo {
+    background: url('../images/xingzuo-logo.png') no-repeat;
+    background-position: -40px -40px;
+    background-size: 160px;
+}
+
+.Virgo-but-01-bg,
+.Virgo-but-02-bg {
+    background: #103663;
+}
+
+
+/* 天秤座样式 */
+
+.Libra-bg {
+    background:#000000 url("../images/tiancheng-bg.jpg") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    box-shadow: 0 0 16px 10px #5ac8af inset;
+    color: #5ac8af;
+}
+
+.Libra-fate-bg {
+	box-sizing: border-box;
+    width:80%;
+    background: #000000;
+    border: 4px solid #5ac8af;
+}
+
+.Libra-bg .fate-text{
+	border-color: #5ac8af;
+}
+
+.Libra-logo {
+    background: url('../images/xingzuo-logo.png') no-repeat;
+    background-position: -80px -40px;
+    background-size: 160px;
+}
+
+.Libra-but-01-bg,
+.Libra-but-02-bg {
+    background: rgba(0,0,0,0.8);
+    box-shadow: 0 0 20px #5ac8af inset;
+    color: #5ac8af;
+}
+
+
+
+/* 天蝎座样式 */
+
+.Scorpio-bg {
+    background:#000507 url("../images/tianxie-bg.jpg") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.Scorpio-fate-bg {
+    background: #0e2c54 url('../images/shizi-t-bg.png') repeat-y;
+}
+
+.Scorpio-logo {
+    background: url('../images/xingzuo-logo.png') no-repeat;
+    background-position: -120px -40px;
+    background-size: 160px;
+}
+
+.Scorpio-but-01-bg,
+.Scorpio-but-02-bg {
+    background: url('../images/baiyang-but.png') repeat-x;
+    background-position: 0px -540px;
+    border-radius: 4px;
+    border: 2px solid #77c2df;
+}
+
+/* 射手座样式 */
+
+.Sagittarius-bg {
+    background: url("../images/sheshou-bg.jpg") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.Sagittarius-fate-bg {
+    background: #5c3933 url('../images/text-bg.png') repeat-y;
+}
+
+.Sagittarius-logo {
+    background: url('../images/xingzuo-logo.png') no-repeat;
+    background-position: 0px -80px;
+    background-size: 160px;
+}
+
+.Sagittarius-but-01-bg,
+.Sagittarius-but-02-bg {
+    background: #5c3933;
+}
+
+
+/* 摩羯座样式 */
+
+.Capricorn-bg {
+    background: url("../images/mojie-bg.jpg") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.Capricorn-fate-bg {
+    background:linear-gradient(to bottom, #482e5e 0%,#9b74c6 100%) ;
+}
+
+.Capricorn-logo {
+    background: url('../images/xingzuo-logo.png') no-repeat;
+    background-position: -40px -80px;
+    background-size: 160px;
+}
+
+.Capricorn-but-01-bg,
+.Capricorn-but-02-bg {
+    background: linear-gradient(to bottom, #583a70 0%,#946ebd 100%);
+}
+
+
+/* 水瓶座样式 */
+
+.Aquarius-bg {
+    background: url("../images/shuiping-bg.png") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.Aquarius-fate-bg {
+    background: #308cba;
+}
+
+.Aquarius-logo {
+    background: url('../images/xingzuo-logo.png') no-repeat;
+    background-position: -80px -80px;
+    background-size: 160px;
+}
+
+.Aquarius-but-01-bg,
+.Aquarius-but-02-bg {
+    background: url('../images/baiyang-but.png') repeat-x;
+    background-position: 0px -600px;
+}
+
+/* 双鱼座样式 */
+
+.Pisces-bg {
+    background: url("../images/shuangyu-bg.jpg") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.Pisces-fate-bg {
+    background: #213a50;
+}
+
+.Pisces-logo {
+    background: url('../images/xingzuo-logo.png') no-repeat;
+    background-position: -120px -80px;
+    background-size: 160px;
+}
+
+.Pisces-but-01-bg,
+.Pisces-but-02-bg {
+    background: url('../images/baiyang-but.png') repeat-x;
+    background-position: 0px -660px;
+    border: 2px solid #375d81;
+    border-radius: 5px; 
+
+}
+
+
+
+/* 渐显动画 */
+
+@keyframes dis {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
