@@ -1,0 +1,133 @@
+@media screen and (min-width: 900px) {
+	/*pc端修饰*/
+	/*头部修饰*/
+header {
+	width: 100%;
+	height: 70px;
+	background: #ef759e;
+}
+.wrap {
+	width: 1200px;
+	margin: 0 auto;
+}
+.logo {
+	float: left;
+	margin-top: 20px;
+}
+.slogan {
+	float: left;
+	margin-left: 30px;
+	line-height: 70px;
+	color: #fff;
+	font-size: 20px;
+}
+/* 内容 */
+	
+.content {
+	width: 1200px;
+	margin: 0 auto;
+}
+	/* 左边内容 */
+.left {
+	width: 270px;
+	/* padding-bottom: 30px; */
+	border-right: 1px solid #ef759e;
+	background: rgba(239,117,158,0.2);
+}
+.user-pic {
+	width: 200px;
+	margin: 35px;
+}
+nav ul li{
+	width: 271px;
+	height: 53px;
+	line-height: 53px;
+	margin-bottom: 8px;
+}
+nav ul li a {
+	position: relative;/*相对于自己定位*/
+	display: block;
+	font-size: 16px;
+	padding-left: 44px;
+}
+nav ul li.myself a,
+nav ul li:hover a {
+	color: #fff;
+	background: #3fc9e1;
+}
+nav ul li.myself a:after,
+nav ul li:hover a:after {
+	position: absolute;/*相对于父集定位*/
+	top: 19px;
+	right: -20px;
+	content: "";
+	border: 10px solid transparent;/*定义边框送我四个三角透明*/
+	border-left-color: #3fc9e1;
+}
+/* 右边内容 */
+.right {
+	width: 910px;
+	margin-left: 19px;
+	
+}
+.right h2 {
+	margin-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #efefef;
+}
+.right h2 ,
+.right h2 a {
+	font-size: 14px;
+	color: #72b7bc;	
+}
+.right1 {
+	width: 620px;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.right1 h3 {
+	text-align: left;
+	font-size: 34px;
+	font-weight: 900;
+	color: #007e86;
+}
+.right01 {
+	padding: 24px 0 0px 0;
+	border-left: none;
+	border-right: none; text-align: center;
+	margin-top: 18px;
+}
+.right01 ul li {
+	font-size: 14px;
+	color: #6e6e6e;
+	text-align: left;
+	width: 612px;
+	line-height: 1.8em;
+	margin-bottom: 44px;
+}
+.right2 {
+	float: left;
+	width: 214px;
+	margin-top: 28px;
+	margin-left: 42px;
+}
+.right2 img {
+	margin-bottom: 20px;
+} */
+/* 页脚 */
+footer {
+	width: 100%;
+}
+footer .top {
+	font-size: 16px;
+	color: #616161;
+	height: 68px;
+	line-height: 68px;
+	background: rgba(217,244,249,0.8);
+}
+footer .bottom {
+	height: 68px;
+	color: #a6a6a6;
+	line-height: 68px;
+}
+}

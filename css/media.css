@@ -1,0 +1,354 @@
+/* 手机端 */
+	
+@media screen and (max-width: 600px) {
+	/*首页内容*/
+	.hidden {
+		display: none;
+	}
+	header {
+		width: 100%;
+		overflow: hidden;
+	}
+	.logo {
+		width: 100%;
+		/*height: 90px;*/
+		text-align: center;
+		background: #ef759e;
+	} 
+	.logo img {
+		width: 88%;
+		padding: 10% 6%;
+	}
+	.slogan {
+		text-align: center;
+		width: 92%;
+		font-size: 20px;
+		padding: 0 4%;
+	}
+	.slogan p {
+		padding-top: 40px;
+		padding-bottom: 8%;
+		color: #f00;
+	}
+	/*主页内容*/
+		/*导航icon列表*/
+	.left {
+		width: 100%;
+	}
+	.user-pic {
+		width: 100%;
+		height: 425px;
+		background: url("../images/media-pic1.png") no-repeat;
+		background-size: 100%;
+	}
+	nav {
+		width: 100%;
+	}
+	nav ul li {
+		float: left;
+		width: 20%;
+		padding: 8% 0;
+		text-align: center;
+	}
+	nav ul li a i.fa {
+		text-align: center;
+		font-size: 20px;
+	}
+	nav ul li a i:hover {
+		color: #ef759e;
+	}
+		/*主页主体样式*/
+	li.act a {
+		color: #f395b4;
+	}
+	.banner img {
+		width: 100%;
+	}
+	.pic-list h2 {
+		width: 100%;
+		line-height: 400%;
+		text-align: center;
+	}
+	.pic-list-flowers {
+		margin-left: 2%;
+		margin-right: 2%;
+		overflow: hidden;
+	}
+	.pic-list-flowers ul li.flower-pic {
+		float: left;
+		width: 50%;
+	}
+	.pic-list-flowers ul li a img {
+		/* display: block; */
+		float: left;
+		width: 100%;
+	}
+	/*我的图集内容样式*/
+	.my-picture a {
+		color: #f395b4;
+	}
+	.right {
+		width: 100%;
+	}
+	.right ul li.worldpeace01 {
+		width: 92%;
+		margin: 0 4% 4%;
+		border: 1px solid #c9c9c9;
+	}
+	.right ul li a {
+		display: block;
+		width: 100%;
+	}
+	.right ul li a figure{
+		width: 100%;
+		margin: 0;
+	}
+	.right ul li a figure img {
+		width: 100%;
+	}
+	.right ul li a figcaption {
+		width: 100%;
+		margin: 2%;
+		font-size: 28px;
+		color: #333;
+		text-align: left;
+		overflow: hidden;
+	}
+	.right ul li a figcaption span {
+		float: right;
+		margin-right: 8%;
+	}
+	.right ul li a figcaption span i.fa-heart {
+		color: #b2b2b2;
+		margin-right: 14px;
+	}
+	.right ul li a figcaption span i.fa-bars {
+		color: #b2b2b2;
+	}
+		/*上下翻页样式*/
+	.page {
+		width: 100%;
+		padding: 4%;
+	}
+	.page a {
+		display: block;
+		float: left;
+		width: 40%;
+		font-weight: 900;
+		text-align: center;
+		line-height: 400%;
+		margin:10px 10px 40px;
+		border: 1px solid #ddd;
+	}
+	.page a.up {
+		color: #ccc;
+		background: #f2f2f2;
+	}
+	.page a.down {
+		color: #fff;
+		background: #3fc9e1;
+	}
+	/*图集详情页样式*/
+	.media-content {
+		width: 92%;
+		margin: 0 4%;
+	}
+	.media-content a {
+		display: block;
+		width: 92%;
+		color: #fafcff;
+		font-size: 28px;
+		padding: 4%;
+		margin-bottom: 4%;
+		text-align: center;
+	}
+	.media-content a.back {
+		background: #3fc9e1;
+	}
+	.media-content a.mom {
+		background: #ef759e;
+	}
+	.content-pic img {
+		width: 100%;
+		margin-bottom: 4%;
+	}
+	.content-pic p {
+		font-size: 28px;
+		color: #919191;
+		margin-bottom: 20%;
+	}
+	/*w我的文集样式*/
+	.my-text a {
+		color: #f395b4;
+	}
+	.right {
+		width: 100%;
+	}
+	.right ul.worldpeace02 {
+		width: 92%;
+		margin: 0 4%;
+		padding: 4% 0% 6% 0%;
+		background: #f3f3f3;
+	}
+	ul.worldpeace02 li {
+		width: 88%;
+		background: #fff;
+		padding: 4%;
+		margin: 2% 2%;
+		border: none;
+	}
+	ul.worldpeace02 li a {
+		width: 100%;
+		font-size: 28px;
+		color: #007e86;
+		font-weight: 900;
+	}
+	ul.worldpeace02 li time {
+		color: #d7d7d7;
+		font-size: 20px;
+	}
+	/*文档详情页样式*/
+	.right a.back-list {
+		margin: 0 8%;
+		display: block;
+		width: 80%;
+		color: #fff;
+		font-size: 36px;
+		text-align: center;
+		background: #3fc9e1;
+		padding: 4% 2%;
+	}
+	.right01 {
+		width:88%;
+		margin: 4%;
+		padding: 8% 2%;
+		background: #f3f3f3; 
+	}
+	.right01 h3.right01-title {
+		width: 100%;
+		padding: 0 0 0 4%;
+		color: #007e86;
+		font-size: 14px;
+		font-weight: 900;
+		margin-bottom: 4%;
+		background: none;
+		text-align: left;
+	}
+	.right01 h4 {
+		width: 100%;
+		color: #a93c0b;
+		padding-left: 4%;
+		margin-bottom: 4%;
+	}
+	.right01 ul li {
+		border: none;
+		font-size: 23px;
+		color: #6e6e6e;
+		padding: 2% 4%;
+	}
+	p.right02, 
+	p.right03 {
+		width: 88%;
+		margin: 0 6%;
+		font-size: 14px;
+	}
+	p.right03 {
+		margin-bottom: 10%;
+	}
+	.right02 a ,
+	.right03 a {
+		width: 100%;
+		color: #72b7bc;
+		font-size: 14px;
+	}
+	/*个人简介样式*/
+	.myself a {
+		color: #f395b4;
+	}
+	.right1 h3 {
+		width: 100%;
+		color: #fff;
+		font-size: 24px;
+		font-weight: 900;
+		text-align: center;
+		padding: 2% 0;
+		background: #f5acc5;
+	}
+	.right2 {
+		width: 100%;	
+	}
+	.right2 img {
+		width: 92%;	
+		margin:1% 4%
+	}
+	/*我喜欢的音乐样式*/
+	.right ul.worldpeace04 li {
+		width: 94%;
+		margin: 4% 3%;
+		border: 1px solid #cdcdcd;
+	}
+	.right ul li a p.name {
+		width: 94%;
+		padding: 4% 2% 2%;
+		color: #333;
+		font-size: 30px;
+	}
+	.right ul li a img.music {
+		width: 96%;
+		margin: 0 2%;
+	}
+	.right ul li a p.name1 {
+		color: #bababa;
+		font-size: 24px;
+		padding: 4% 0 2% 4%;
+	}
+	.right ul li a p.name1 span {
+		float: right;
+		margin-right: 8%;
+	}
+	.right ul li a p.name1 span i.fa-heart {
+		color: #b2b2b2;
+		margin-right: 14px;
+	}
+	.right ul li a p.name1 span i.fa-bars {
+		color: #b2b2b2;
+	}
+	/*音乐详情页*/
+	.my-music a {
+		color: #f395b4;
+	}
+	.right1 img.singers {
+		width: 100%;
+	}
+	audio{
+		width: 96%;
+		margin: 0 2%;
+	}
+	.lyrics1 {
+		width: 100%;
+		color: #bfbfbf;
+		padding-left: 10%; 
+		margin: 4% 0 10%;
+	}
+	/*页脚内容*/
+	footer {
+		width: 100%;
+		overflow: hidden;
+	}
+	.top {
+		width: 100%;
+		padding: 8% 0 8% 0;
+		background: #d9f4f9;
+	}
+	.top span {
+		display: block;
+		color: #616161;
+		text-align: left;
+		margin-left: 5%;
+	}
+	.bottom {
+		width: 100%;
+		color: #a2a2a2;
+		padding: 8% 2% 6% 2%;
+	}
+}
