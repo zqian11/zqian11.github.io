@@ -1,0 +1,181 @@
+body{
+	background: #e29336;
+}
+.game1{
+	position: relative;
+	z-index: 0;
+	width: 100%;
+}
+.pic1 img{
+	width: 100%;
+}
+.pic2{
+	position: relative;
+	top: -4px;
+}
+.pic2 img{
+	width: 100%;
+}
+.pic3{
+	position: relative;
+	width: 100%;
+	margin-bottom: 12%;
+}
+/*第几题的文字部分*/
+h2{
+	position: absolute;
+	left: 50%;
+	top: 3%;
+	z-index: 1;
+	margin-left: -90px;
+	font-size: 3.4em;
+	font-family: "楷体";
+	color: #fff;
+}
+/*题目的倒计时间部分*/
+.time{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 1;
+	margin-left: -16px;
+	font-size: 4em;
+	font-family: "楷体";
+	color: #320003;
+}
+.pic3 .pic3-1{
+	position: relative;
+	width: 100%;
+}
+.pic3 .pic3-1 img{
+	width: 100%;
+}
+/*图片*/
+.pic3 .pic3-2{
+	position: absolute;
+	top: 14%;
+	margin-left: 8%;
+	width: 84%;
+}
+.pic3 .pic3-2 img{
+	width: 100%;
+}
+.pic3 .pic3-2 .pic3-2-1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+}
+.pic3 .pic3-2 .pic3-2-1 div{
+	position: absolute;
+	left: 20%;
+	top: 4%;
+	width: 10%;
+}
+.pic3 .pic3-2 .pic3-2-1 img:nth-child(1){
+	width: 34%;
+	margin-bottom: 14%;
+}
+.pic3 .pic3-2 .pic3-2-1 img:nth-child(2){
+	position: absolute;
+	top: 26%;
+	left: 40%;
+	width: 20%;
+}
+.pic3 .pic3-2 .pic3-2-1 p{
+	font-size: 3em;
+	color: #ffd124;
+	font-family: "楷体";
+	margin-left: 26%;
+}
+/*分隔条*/
+.pic3 .pic3-3{
+	position: absolute;
+	top: 52%;
+	z-index: 1;
+	margin-left: 4%;
+	width: 92%;
+}
+.pic3 .pic3-3 img{
+	width: 100%;
+}
+.pic3 .pic3-3-1{
+	position: absolute;
+	top: 52%;
+	margin-left: 8%;
+	width: 84%;
+	height: 20%;
+}
+.pic3 .pic3-3-1>img{
+	width: 100%;
+}
+.pic3 .pic3-3-01{
+	position: absolute;
+	top: 8%;
+	width: 50%;
+	padding-left: 26%;
+}
+.pic3 .pic3-3-01 img{
+	float: left;
+	width: 22%;
+}
+.pic3 .pic3-3-01 div{
+	margin-top: 2%;
+	margin-left: 4%;
+	float: left;
+}
+.pic3 .pic3-3-01 div p{
+	font-size: 3em;
+}
+/*发出挑战/再来一次*/
+.pic3 .pic3-4{
+	position: absolute;
+	top: 68%;
+	margin-left: 8%;
+	width: 42%;
+}
+.pic3 .pic3-4 img{
+	width: 100%;
+}
+.pic3 .pic3-5{
+	position: absolute;
+	top: 68%;
+	margin-left: 51%;
+	width: 42%;
+}
+.pic3 .pic3-5 img{
+	width: 100%;
+}
+/*下方波浪*/
+.pic4{
+	position: fixed;
+	bottom: 0px;
+	z-index: 999;
+	width: 100%;
+}
+.pic4 img{
+	width: 100%;
+}
+/*顶部返回*/
+.pic5{
+	position: absolute;
+	top: 4%;
+	width: 100%;
+}
+.pic5 img{
+	width: 100%;
+}
+.pic5 .back{
+	position: absolute;
+	top: 0px;
+	left: 2%;
+	width: 20%;
+	height: 100%;
+}
+.pic5 .back a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,157 @@
+body{
+	background: #e29336;
+}
+.game1{
+	position: relative;
+	z-index: 0;
+	width: 100%;
+}
+.pic1 img{
+	width: 100%;
+}
+.pic2{
+	position: relative;
+	top: -4px;
+}
+.pic2 img{
+	width: 100%;
+}
+.pic3{
+	position: relative;
+	width: 100%;
+	margin-bottom: 9%;
+}
+/*第几题的文字部分*/
+h2{
+	position: absolute;
+	left: 50%;
+	top: 3%;
+	z-index: 1;
+	margin-left: -90px;
+	font-size: 3.4em;
+	font-family: "楷体";
+	color: #fff;
+}
+/*题目的倒计时间部分*/
+.time{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 1;
+	margin-left: -28px;
+	font-size: 4em;
+	font-family: "楷体";
+	color: #320003;
+}
+.pic3 .pic3-1{
+	position: relative;
+	width: 100%;
+}
+.pic3 .pic3-1 img{
+	width: 100%;
+}
+.pic3 .pic3-2{
+	position: absolute;
+	top: 14%;
+	margin-left: 8%;
+	width: 84%;
+}
+.pic3 .pic3-2 img{
+	width: 100%;
+}
+.pic3 .pic3-3{
+	position: absolute;
+	top: 48%;
+	margin-left: 4%;
+	width: 92%;
+}
+.pic3 .pic3-3 img{
+	width: 100%;
+}
+.pic3 .pic3-4{
+	position: absolute;
+	top: 64%;
+	width: 100%;
+	height: 10%;
+}
+.pic3 .pic3-4 div{
+	position: absolute;
+	top: 10%;
+	width: 10%;
+	height: 91%;
+	
+}
+.pic3 .pic3-4 div img{
+	width: 100%;	
+}
+.pic3 .pic3-4 div.act p{
+	background: #fc472a;
+	font-size: 4.2em;
+	text-align: center;
+	width: 90%;
+	height: 90%;
+	margin: 5% 0% 0% 5%;
+	font-family: "楷体";
+}
+.pic3 .pic3-4 div:nth-child(1){
+	margin-left: 25%;
+}
+.pic3 .pic3-4 div:nth-child(2){
+	margin-left: 38%;
+}
+.pic3 .pic3-4 div:nth-child(3){
+	margin-left: 51%;
+	background: #320003;
+	
+}
+.pic3 .pic3-4 div:nth-child(4){
+	margin-left: 64%;
+}
+input{
+	position: absolute;
+	top: 75%;
+	left: 25%;
+	width: 49%;
+	height: 8%;
+	font-size: 4em;
+}
+.pic3 .pic3-5{
+	position: absolute;
+	top: 84%;
+	margin-left: 1%;
+	width: 98%;
+}
+.pic3 .pic3-5 img{
+	width: 100%;
+}
+/*下方波浪*/
+.pic4{
+	position: fixed;
+	bottom: 0px;
+	z-index: 999;
+	width: 100%;
+}
+.pic4 img{
+	width: 100%;
+}
+/*顶部返回*/
+.pic5{
+	position: absolute;
+	top: 4%;
+	width: 100%;
+}
+.pic5 img{
+	width: 100%;
+}
+.pic5 .back{
+	position: absolute;
+	top: 0px;
+	left: 2%;
+	width: 20%;
+	height: 100%;
+}
+.pic5 .back a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
