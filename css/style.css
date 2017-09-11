@@ -279,9 +279,9 @@ ul.address li ul.address-text li a:hover{
 .agileits_agile_about_right h4{
 	font-size: 1em;
     color: #212121;
-    position: relative;
+    // position: relative;
     line-height: 2em;
-    padding-left: 2.5em;
+    padding-left: 0em;
 }
 .agileits_agile_about_right h4:before{
 	content: '';
