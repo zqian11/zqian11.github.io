@@ -1,37 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>猜成语</title>
-	<link rel="stylesheet" type="text/css" href="css/base.css">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-</head>
-<body>
-	<div class="index">
-		<div class="pic1">
-			<img src="images/index (3).png">
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1">
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/route.js"></script>
+		<script type="text/javascript" src="js/json.js"></script>
+	</head>
+	<body>
+		<div class="emit_line">
+			<img src="images/bj.png">
 		</div>
-		<div class="pic2">
-			<img src="images/index (2).png">
+		<div class="roof">
+			<img src="images/roof.png">
 		</div>
-		<div class="pic3">
-			<img src="images/index (4).png">
+		<div class="title">
+			<img src="images/title.png">
 		</div>
-		<div class="pic4">
-			<img src="images/index (7).png">
+		<div id="change">
+			
 		</div>
-		<div class="pic5">
-			<img src="images/index (8).png">
-			<div class="begin">
-				<a href="game1.html"></a>
-			</div>
+		<div class="adorn">
+			<img src="images/adorn_left.png" class="adorn_l">
+			<img src="images/adorn_right.png" class="adorn_r">
 		</div>
-		<div class="pic6">
-			<img src="images/index (6).png">
+		<div class="footer">
+			<img src="images/footer.png">
 		</div>
-		<div class="pic7">
-			<img src="images/index (1).png">
+		<div id="share">
+		  <img class="share-img" src="images/share_1.png">
 		</div>
-	</div>
-</body>
+		<script>
+			spaRouters.map('/index', function(transition) {
+		       spaRouters.asyncFun('js/index.js', transition); //首页
+		    });
+			spaRouters.map('/one', function(transition) {
+		       spaRouters.asyncFun('js/one.js', transition); //1
+		    });
+		    spaRouters.map('/two', function(transition) {
+		       spaRouters.asyncFun('js/two.js', transition); //2
+		    });
+		    spaRouters.map('/three', function(transition) {
+		       spaRouters.asyncFun('js/three.js', transition); //3
+		    });
+		    spaRouters.map('/four', function(transition) {
+		       spaRouters.asyncFun('js/four.js', transition); //4
+		    });
+			spaRouters.map('/five', function(transition) {
+		       spaRouters.asyncFun('js/five.js', transition); //5
+		    });
+		    spaRouters.map('/six', function(transition) {
+		       spaRouters.asyncFun('js/six.js', transition); //6
+		    });
+		    spaRouters.map('/seven', function(transition) {
+		       spaRouters.asyncFun('js/seven.js', transition); //7
+		    });
+		    spaRouters.map('/eight', function(transition) {
+		       spaRouters.asyncFun('js/eight.js', transition); //8
+		    });
+		    spaRouters.map('/nine', function(transition) {
+		       spaRouters.asyncFun('js/nine.js', transition); //9
+		    });
+			spaRouters.map('/ten', function(transition) {
+		       spaRouters.asyncFun('js/ten.js', transition); //10
+		    });
+		    spaRouters.map('/eleven', function(transition) {
+		       spaRouters.asyncFun('js/eleven.js', transition); //11
+		    });
+		    spaRouters.map('/twelve', function(transition) {
+		       spaRouters.asyncFun('js/twelve.js', transition); //12
+		    });
+		    spaRouters.map('/thirteen', function(transition) {
+		       spaRouters.asyncFun('js/thirteen.js', transition); //13
+		    });
+		    spaRouters.map('/fourteen', function(transition) {
+		       spaRouters.asyncFun('js/fourteen.js', transition); //14
+		    });
+		    spaRouters.map('/fifteen', function(transition) {
+		       spaRouters.asyncFun('js/fifteen.js', transition); //15
+		    });
+		    spaRouters.map('/sixteen', function(transition) {
+		       spaRouters.asyncFun('js/sixteen.js', transition); //16
+		    });
+			spaRouters.map('/seventeen', function(transition) {
+		       spaRouters.asyncFun('js/seventeen.js', transition); //17
+		    });
+		    spaRouters.map('/eighteen', function(transition) {
+		       spaRouters.asyncFun('js/eighteen.js', transition); //18
+		    });
+		    spaRouters.map('/nineteen', function(transition) {
+		       spaRouters.asyncFun('js/nineteen.js', transition); //19
+		    });
+		    spaRouters.map('/twenty', function(transition) {
+		       spaRouters.asyncFun('js/twenty.js', transition); //20
+		    });
+		    spaRouters.map('/success', function(transition) {
+		       spaRouters.asyncFun('js/success.js', transition); //失败
+		    });
+		    spaRouters.map('/error', function(transition) {
+		       spaRouters.asyncFun('js/error.js', transition); //失败
+		    });
+		    spaRouters.beforeEach(function(transition) {
+		       console.log('切换之前dosomething')
+		       setTimeout(function() {
+		           //模拟切换之前延迟，比如说做个异步登录信息验证
+		           transition.next()
+		       }, 100)
+		    });
+		    spaRouters.afterEach(function(transition) {
+		       console.log("切换之后dosomething")
+		    });
+		    spaRouters.init();
+		    function show(){
+		      var share = document.getElementById('share');
+		      share.style.display = 'block';
+		    }
+		    document.getElementById('share').onclick=function(){
+		      var share = document.getElementById('share');
+		      share.style.display = 'none';
+		    }
+		</script>
+		<script src="js/mylib.js"></script>
+		<script src="js/js.js"></script>
+	</body>
 </html>
